@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQLogin.Droid", "QQLogin.Dr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQLogin.Binding.Android", "QQLogin.Binding.Android\QQLogin.Binding.Android.csproj", "{5B748E53-AF6D-4007-A085-CF1C316D69CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQLoginiOS", "QQLoginiOS\QQLoginiOS.csproj", "{40757D1A-9A63-4F59-90C4-6836FF231B76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQLogin.iOS", "QQLoginiOS\QQLogin.iOS.csproj", "{40757D1A-9A63-4F59-90C4-6836FF231B76}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQLogin.Binding.iOS", "QQLogin.Binding.iOS\QQLogin.Binding.iOS.csproj", "{6BC62F00-87D9-4EDA-A224-37D945FB4BC6}"
 EndProject

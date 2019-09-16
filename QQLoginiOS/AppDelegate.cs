@@ -29,13 +29,12 @@ namespace QQLoginiOS
         {
             var urlKey = options[UIApplication.LaunchOptionsUrlKey]?.ToString();
 
-
             if (urlKey == "com.tencent.mqq")
             {
-                // QQ 的回调
                 return TencentOAuth.HandleOpenURL(url);
             }
-            return base.OpenUrl(app, url, options);
+            //return base.OpenUrl(app, url, options);
+            return TencentOAuth.HandleOpenURL(url);
         }
 
         public override bool HandleOpenURL(UIApplication application, NSUrl url)

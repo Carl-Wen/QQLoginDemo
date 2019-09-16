@@ -37,7 +37,7 @@ using ObjCRuntime;
 
 [assembly: LinkWith(libraryName: "TencentOpenAPI",
     LinkTarget = LinkTarget.ArmV7 | LinkTarget.Simulator | LinkTarget.Simulator64 | LinkTarget.Arm64,
-    Frameworks = "SystemConfiguration CoreTelephony QuartzCore CoreGraphics Security",
+    Frameworks = "SystemConfiguration CoreTelephony QuartzCore CoreGraphics Security WebKit",
     LinkerFlags = "-ObjC -fobjc-arc -lstdc++ -lz -dead_strip -lsqlite3 -lc++ -liconv",
     SmartLink = true,
     ForceLoad = true)]

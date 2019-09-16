@@ -59,6 +59,7 @@ namespace QQLoginiOS
 
         public override void GetUserInfoResponse(APIResponse response)
         {
+            Console.WriteLine(response?.Message);
         }
     }
 }

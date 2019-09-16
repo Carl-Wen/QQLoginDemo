@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>QQLoginiOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.seven.QQLogin-iOS</string>
+	<string>com.seven.QQLogin</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -60,26 +60,26 @@
 		</dict>
 	</array>
 	<key>NSAppTransportSecurity</key>
-    <dict>
-        <key>NSAllowsArbitraryLoads</key>
-        <true/>
-    </dict>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>mqzoneopensdk</string>
-        <string>mqzoneopensdkapi</string>
-        <string>mqzoneopensdkapi19</string>
-        <string>mqzoneopensdkapiV2</string>
-        <string>mqqOpensdkSSoLogin</string>
-        <string>mqqopensdkapiV2</string>
-        <string>mqqopensdkapiV3</string>
-        <string>wtloginmqq2</string>
-        <string>mqqapi</string>
-        <string>mqqwpa</string>
-        <string>mqzone</string>
-        <string>mqq</string>
-        <string>mqqopensdkapiV4</string>
-        <string> mqqopensdkdataline </string>
-    </array>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>mqzoneopensdk</string>
+		<string>mqzoneopensdkapi</string>
+		<string>mqzoneopensdkapi19</string>
+		<string>mqzoneopensdkapiV2</string>
+		<string>mqqOpensdkSSoLogin</string>
+		<string>mqqopensdkapiV2</string>
+		<string>mqqopensdkapiV3</string>
+		<string>wtloginmqq2</string>
+		<string>mqqapi</string>
+		<string>mqqwpa</string>
+		<string>mqzone</string>
+		<string>mqq</string>
+		<string>mqqopensdkapiV4</string>
+		<string> mqqopensdkdataline </string>
+	</array>
 </dict>
 </plist>
