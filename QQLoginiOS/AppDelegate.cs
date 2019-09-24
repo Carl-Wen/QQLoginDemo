@@ -1,4 +1,6 @@
-﻿using Foundation;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Foundation;
 using QQ.Binding.iOS;
 using UIKit;
 
@@ -27,14 +29,22 @@ namespace QQLoginiOS
 
         public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)
         {
-            var urlKey = options[UIApplication.LaunchOptionsUrlKey]?.ToString();
+            /*
+            var urlKey = options[UIKit.UIApplicationOpenUrlOptions]?.ToString();
 
             if (urlKey == "com.tencent.mqq")
             {
                 return TencentOAuth.HandleOpenURL(url);
             }
-            //return base.OpenUrl(app, url, options);
-            return TencentOAuth.HandleOpenURL(url);
+            */
+
+            var values = new List<NSObject>(options.Values).Select(x => x.ToString()).ToList();
+            if (values.Contains("com.tencent.mqq"))
+            {
+                return TencentOAuth.HandleOpenURL(url);
+            }
+
+            return base.OpenUrl(app, url, options);
         }
 
         public override bool HandleOpenURL(UIApplication application, NSUrl url)

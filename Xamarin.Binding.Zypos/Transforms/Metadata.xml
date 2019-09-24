@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    
+    <attr path="/api/package[@name='com.google.zxing']" name="managedName">Google.ZXing</attr>
+    <attr path="/api/package[@name='com.google.zxing.aztec']" name="managedName">Google.ZXing.Aztec</attr>
+    <attr path="/api/package[@name='com.google.zxing.aztec.decoder']" name="managedName">Google.ZXing.Aztec.Decoder</attr>
+    <attr path="/api/package[@name='com.google.zxing.aztec.detector']" name="managedName">Google.ZXing.Aztec.Detector</attr>
+    <attr path="/api/package[@name='com.google.zxing.aztec.encoder']" name="managedName">Google.ZXing.Aztec.Encoder</attr>
+    <attr path="/api/package[@name='com.google.zxing.client']" name="managedName">Google.ZXing.Client</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']" name="managedName">Google.ZXing.Client.Result</attr>
+    <attr path="/api/package[@name='com.google.zxing.common']" name="managedName">Google.ZXing.Common</attr>
+    <attr path="/api/package[@name='com.google.zxing.common.detector']" name="managedName">Google.ZXing.Common.Detector</attr>
+    <attr path="/api/package[@name='com.google.zxing.common.reedsolomon']" name="managedName">Google.ZXing.Common.ReedSolomon</attr>
+    <attr path="/api/package[@name='com.google.zxing.datamatrix']" name="managedName">Google.ZXing.DataMatrix</attr>
+    <attr path="/api/package[@name='com.google.zxing.datamatrix.decoder']" name="managedName">Google.ZXing.DataMatrix.Decoder</attr>
+    <attr path="/api/package[@name='com.google.zxing.datamatrix.detector']" name="managedName">Google.ZXing.DataMatrix.Detector</attr>
+    <attr path="/api/package[@name='com.google.zxing.datamatrix.encoder']" name="managedName">Google.ZXing.DataMatrix.Encoder</attr>
+    <attr path="/api/package[@name='com.google.zxing.maxicode']" name="managedName">Google.ZXing.MaxiCode</attr>
+    <attr path="/api/package[@name='com.google.zxing.maxicode.decoder']" name="managedName">Google.ZXing.MaxiCode.Decoder</attr>
+    <attr path="/api/package[@name='com.google.zxing.multi']" name="managedName">Google.ZXing.Multi</attr>
+    <attr path="/api/package[@name='com.google.zxing.multi.qrcode']" name="managedName">Google.ZXing.Multi.QRCode</attr>
+    <attr path="/api/package[@name='com.google.zxing.multi.qrcode.detector']" name="managedName">Google.ZXing.Multi.QRCode.Detector</attr>
+    <attr path="/api/package[@name='com.google.zxing.oned']" name="managedName">Google.ZXing.OneD</attr>
+    <attr path="/api/package[@name='com.google.zxing.oned.rss']" name="managedName">Google.ZXing.OneD.RSS</attr>
+    <attr path="/api/package[@name='com.google.zxing.oned.rss.expanded']" name="managedName">Google.ZXing.OneD.RSS.Expanded</attr>
+    <attr path="/api/package[@name='com.google.zxing.oned.rss.expanded.decoders']" name="managedName">Google.ZXing.OneD.RSS.Expanded.Decoders</attr>
+    <attr path="/api/package[@name='com.google.zxing.pdf417']" name="managedName">Google.ZXing.PDF417</attr>
+    <attr path="/api/package[@name='com.google.zxing.pdf417.decoder']" name="managedName">Google.ZXing.PDF417.Decoder</attr>
+    <attr path="/api/package[@name='com.google.zxing.pdf417.detector']" name="managedName">Google.ZXing.PDF417.Detector</attr>
+    <attr path="/api/package[@name='com.google.zxing.pdf417.decoder.ec']" name="managedName">Google.ZXing.PDF417.Decoder.EC</attr>
+    <attr path="/api/package[@name='com.google.zxing.pdf417.encoder']" name="managedName">Google.ZXing.PDF417.Encoder</attr>
+    <attr path="/api/package[@name='com.google.zxing.qrcode']" name="managedName">Google.ZXing.QRCode</attr>
+    <attr path="/api/package[@name='com.google.zxing.qrcode.decoder']" name="managedName">Google.ZXing.QRCode.Decoder</attr>
+    <attr path="/api/package[@name='com.google.zxing.qrcode.detector']" name="managedName">Google.ZXing.QRCode.Detector</attr>
+    <attr path="/api/package[@name='com.google.zxing.qrcode.encoder']" name="managedName">Google.ZXing.QRCode.Encoder</attr>
+    <!-- override types -->
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='AddressBookAUResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='AddressBookDoCoMoResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='BizcardResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='BookmarkDoCoMoResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='EmailAddressResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='EmailDoCoMoResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='ExpandedProductResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='GeoResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='ISBNResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='ProductResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='SMSMMSResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='SMSTOMMSTOResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='SMTPResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='TelResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='VEventResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='VINResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='URIResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='WifiResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='URLTOResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='VCardResultParser']/method[@name='parse']" name="managedReturn">Google.ZXing.Client.Result.ParsedResult</attr>
+    <!-- some types are private, but still used -->
+    <attr path="/api/package/class[@visibility='']" name="visibility">public</attr>
+    <attr path="/api/package/interface[@visibility='']" name="visibility">public</attr>
+    
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnCanEventListener']/method[@name='onClose' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnClose_CanEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnCanEventListener']/method[@name='onCmd' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnCmd_CanEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnCanEventListener']/method[@name='OnInit' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnInit_CanEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnCanEventListener']/method[@name='onReceived' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='byte[]'] and parameter[3][@type='int']]" name="managedName">OnReceived_CanEvent</attr>
+    
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnIcPasmEventListener']/method[@name='onApdu' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='byte[]'] and parameter[4][@type='int']]" name="managedName">OnApdu_IcPasmEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnIcPasmEventListener']/method[@name='onClose' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]" name="managedName">OnClose_IcPasmEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnIcPasmEventListener']/method[@name='onReset' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='byte[]'] and parameter[4][@type='int']]" name="managedName">OnReset_IcPasmEvent</attr>
+    
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnDeviceUpdateListener']/method[@name='onFailed' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnFailed_DeviceUpdate</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnDeviceUpdateListener']/method[@name='onFinish' and count(parameter)=0]" name="managedName">OnFinish_DeviceUpdate</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnDeviceUpdateListener']/method[@name='onProgress' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnProgress_DeviceUpdate</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnDeviceUpdateListener']/method[@name='onStart' and count(parameter)=0]" name="managedName">OnStart_DeviceUpdate</attr>
+    
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnM1CardEventListener']/method[@name='onAuth' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnAuth_M1CardEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnM1CardEventListener']/method[@name='onExit' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnExit_M1CardEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnM1CardEventListener']/method[@name='onInit' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnInit_M1CardEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnM1CardEventListener']/method[@name='onRead' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='byte[]'] and parameter[3][@type='int']]" name="managedName">OnRead_M1CardEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnM1CardEventListener']/method[@name='onSearch' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.String']]" name="managedName">OnSearch_M1CardEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnM1CardEventListener']/method[@name='onWrite' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnWrite_M1CardEvent</attr>
+    
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnMemoryCardEventListener']/method[@name='onClose' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnClose_MemoryCardEvent</attr>
+    
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnRficEventListener']/method[@name='onInit' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnInit_RficEvent</attr>
+    
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnSerialEventListener']/method[@name='onInit' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnInit_SerialEvent</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnSerialEventListener']/method[@name='onWrite' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnWrite_SerialEvent</attr>
+    
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnSwipingListener']/method[@name='onFailed' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnFailed_Swiping</attr>
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnSwipingListener']/method[@name='onSuccess' and count(parameter)=4 and parameter[1][@type='java.lang.String'] and parameter[2][@type='byte[]'] and parameter[3][@type='byte[]'] and parameter[4][@type='byte[]']]" name="managedName">OnSuccess_Swiping</attr>
+    
+    <attr path="/api/package[@name='android.posapi']/interface[@name='PosApi.OnMemoryCardEventListener']/method[@name='onSelect' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnSelect_MemoryCardEvent</attr>
+</metadata>
