@@ -29,20 +29,19 @@ namespace QQLoginiOS
 
         public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)
         {
-            /*
-            var urlKey = options[UIKit.UIApplicationOpenUrlOptions]?.ToString();
-
-            if (urlKey == "com.tencent.mqq")
+            var keys = new UIApplicationOpenUrlOptions(options);
+            if (keys?.SourceApplication == "com.tencent.mqq")
             {
                 return TencentOAuth.HandleOpenURL(url);
             }
-            */
 
+            /*
             var values = new List<NSObject>(options.Values).Select(x => x.ToString()).ToList();
             if (values.Contains("com.tencent.mqq"))
             {
                 return TencentOAuth.HandleOpenURL(url);
             }
+            */
 
             return base.OpenUrl(app, url, options);
         }
